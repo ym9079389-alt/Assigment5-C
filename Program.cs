@@ -2,6 +2,7 @@
 using System.Drawing;
 using System.Reflection;
 using System.Runtime.Serialization.Formatters;
+using Microsoft.VisualBasic;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assigment5_C_
@@ -63,9 +64,24 @@ namespace Assigment5_C_
 
             #region Q 8
             //Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and print the result.
-            string genreText = "Science";
-            Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
-            Console.WriteLine(genre);
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(genre);
+            #endregion
+
+            #region Q 9
+            //Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
+            string genreText = "Mystery";
+            bool isParsed;
+            isParsed = Enum.TryParse<Genre>(genreText, out Genre genre);
+            if (isParsed)
+            {
+                Console.WriteLine(genre);
+            }
+            else
+            {
+                Console.WriteLine("Unknown genre");
+            }
             #endregion
         }
     }
