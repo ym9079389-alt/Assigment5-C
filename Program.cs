@@ -1,5 +1,6 @@
 ﻿using System.Collections.Specialized;
 using System.Drawing;
+using System.Reflection;
 using System.Runtime.Serialization.Formatters;
 
 namespace Assigment5_C_
@@ -18,8 +19,15 @@ namespace Assigment5_C_
 
             #region Q 2
             //Add an internal int copiesInStock = 5; field to Book.Print it from Main.Does it compile? Why ?
-            Console.WriteLine(book.copiesInStock);
+            //Console.WriteLine(book.copiesInStock);
             // ظهر 5 لان internal متعرفه داخل نفس المشروع
+            #endregion
+
+            #region Q 3
+            //Add a public string Title; field to Book.Set it and print it from Main.
+            Console.Write("Enter the title of the book:");
+            book.Title = Console.ReadLine();
+            Console.WriteLine(book.Title);
             #endregion
 
         }
