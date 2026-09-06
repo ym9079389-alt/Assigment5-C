@@ -69,7 +69,20 @@ namespace Assigment5_C_
             //Console.WriteLine(genre);
             #endregion
 
-            
+            #region Q 9
+            //Given string genreText = "Mystery"; (not a valid Genre value), use Enum.TryParse() to attempt the conversion.Print "Unknown genre" if it fails.
+            //string genreText = "Mystery";
+            //bool isParsed;
+            //isParsed = Enum.TryParse<Genre>(genreText, out Genre genre);
+            //if (isParsed)
+            //{
+            //    Console.WriteLine(genre);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Unknown genre");
+            //}
+            #endregion
         }
     }
 }
