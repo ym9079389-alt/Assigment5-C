@@ -19,7 +19,13 @@ namespace Assigment5_C_
             // ظهر  compile error لان بالنسباله مفيش متغير بالاسم ده لانه متعرف private
             #endregion
 
-           
+            #region Q 2
+            //Add an internal int copiesInStock = 5; field to Book.Print it from Main.Does it compile? Why ?
+            //Console.WriteLine(book.copiesInStock);
+            // ظهر 5 لان internal متعرفه داخل نفس المشروع
+            #endregion
+
+            
         }
     }
 }
