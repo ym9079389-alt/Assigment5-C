@@ -62,6 +62,13 @@ namespace Assigment5_C_
             //Console.WriteLine(genreString);
             #endregion
 
+            #region Q 8
+            //Given string genreText = "Science";, convert it into a Genre value using Enum.Parse() and print the result.
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(genre);
+            #endregion
+
             
         }
     }
