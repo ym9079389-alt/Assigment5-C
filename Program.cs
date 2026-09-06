@@ -38,12 +38,19 @@ namespace Assigment5_C_
 
             #region Q 5
             //Using the Genre enum above, print the underlying int value of Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
-            int fictionValue = (int) Genre.Fiction;
-            int nonFictionValue = (int) Genre.NonFiction;
-            int scienceValue = (int) Genre.Science;
-            Console.WriteLine(fictionValue);
-            Console.WriteLine(nonFictionValue);
-            Console.WriteLine(scienceValue);
+            //int fictionValue = (int) Genre.Fiction;
+            //int nonFictionValue = (int) Genre.NonFiction;
+            //int scienceValue = (int) Genre.Science;
+            //Console.WriteLine(fictionValue);
+            //Console.WriteLine(nonFictionValue);
+            //Console.WriteLine(scienceValue);
+            #endregion
+
+            #region Q 6
+            //Given int genreNumber = 1;, cast it into a Genre value and print the result.
+            int genreNumber = 1;
+            Genre genre = (Genre)genreNumber;
+            Console.WriteLine(genre);
             #endregion
         }
     }
