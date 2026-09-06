@@ -38,6 +38,16 @@ namespace Assigment5_C_
             //Console.WriteLine(book.Genre);
             #endregion
 
+            #region Q 5
+            //Using the Genre enum above, print the underlying int value of Genre.Fiction, Genre.NonFiction, and Genre.Science by casting each to int.
+            //int fictionValue = (int) Genre.Fiction;
+            //int nonFictionValue = (int) Genre.NonFiction;
+            //int scienceValue = (int) Genre.Science;
+            //Console.WriteLine(fictionValue);
+            //Console.WriteLine(nonFictionValue);
+            //Console.WriteLine(scienceValue);
+            #endregion
+
             
         }
     }
