@@ -25,6 +25,13 @@ namespace Assigment5_C_
             // ظهر 5 لان internal متعرفه داخل نفس المشروع
             #endregion
 
+            #region Q 3
+            //Add a public string Title; field to Book.Set it and print it from Main.
+            //Console.Write("Enter the title of the book:");
+            //book.Title = Console.ReadLine();
+            //Console.WriteLine(book.Title);
+            #endregion
+
             
         }
     }
