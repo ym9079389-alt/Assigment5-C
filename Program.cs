@@ -32,6 +32,12 @@ namespace Assigment5_C_
             //Console.WriteLine(book.Title);
             #endregion
 
+            #region Q 4
+            //Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+            //book.Genre = Genre.Science;
+            //Console.WriteLine(book.Genre);
+            #endregion
+
             
         }
     }
