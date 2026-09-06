@@ -7,6 +7,6 @@ namespace Assigment5_C_
     internal class Book
     {
         private string password = "secret";
-                          
+        internal int copiesInStock = 5;
     }
 }
