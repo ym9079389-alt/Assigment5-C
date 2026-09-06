@@ -25,9 +25,15 @@ namespace Assigment5_C_
 
             #region Q 3
             //Add a public string Title; field to Book.Set it and print it from Main.
-            Console.Write("Enter the title of the book:");
-            book.Title = Console.ReadLine();
-            Console.WriteLine(book.Title);
+            //Console.Write("Enter the title of the book:");
+            //book.Title = Console.ReadLine();
+            //Console.WriteLine(book.Title);
+            #endregion
+
+            #region Q 4
+            //Declare an enum Genre { Fiction, NonFiction, Science }. Add a Genre property to Book, assign it Genre.Science, and print it.
+            book.Genre = Genre.Science;
+            Console.WriteLine(book.Genre);
             #endregion
 
         }
